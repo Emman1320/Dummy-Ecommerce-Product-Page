@@ -11,7 +11,7 @@
   src: url("../Barlow_Condensed,Nunito,Oswald,Titillium_Web/Nunito/Nunito-Light.ttf");
 }
 @font-face {
-  font-family: "Titillium_Web";
+  font-family: "Titillium Web";
   src: url("../Barlow_Condensed,Nunito,Oswald,Titillium_Web/Titillium_Web/TitilliumWeb-Light.ttf");
 }
 
@@ -23,23 +23,20 @@
   font-family: "Nunito", sans-serif;
   scroll-behavior: smooth;
 }
-/* width */
+
 .suggested-products::-webkit-scrollbar {
   height: 9px;
 }
 
-/* Track */
 .suggested-products::-webkit-scrollbar-track {
   background: transparent;
 }
 
-/* Handle */
 .suggested-products::-webkit-scrollbar-thumb {
   background: rgb(95, 95, 95);
   border-radius: 4px;
 }
 
-/* Handle on hover */
 .suggested-products::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
