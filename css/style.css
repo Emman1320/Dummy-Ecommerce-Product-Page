@@ -252,7 +252,7 @@ nav {
 .product-image-container {
   position: sticky;
   top: 6.8em;
-  margin-bottom: 20em;
+  margin-bottom: 20.2em;
   display: flex;
   flex-direction: column;
 }
@@ -609,7 +609,7 @@ nav {
 /* Similar products  */
 .suggested-products-section {
   padding: 1.5em;
-  padding-top: 0.9em;
+  padding-top: 0.1em;
 }
 .suggested-products-title {
   font-size: 2em;
