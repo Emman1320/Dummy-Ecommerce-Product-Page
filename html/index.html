@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ROG Laptop</title>
+  <link rel="stylesheet" href="../css/style.css" />
+  <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=Nunito:wght@300&family=Oswald&family=Titillium+Web:wght@200&display=swap"
+    rel="stylesheet"> -->
+  <script src="../javascript/javascript.js"></script>
+</head>
+
+<body id="body">
+  <nav>
+    <header class="logo">Amakart</header>
+    <ul class="nav-toolbar">
+      <li>Home</li>
+      <li>About</li>
+      <li>Sign Up</li>
+      <li>Login</li>
+      <li id="bell">
+        <img src="../static/bell.svg" alt="notification" width="30" />
+      </li>
+      <li id="cart">
+        <img src="../static/cart.svg" alt="cart" width="30" />
+      </li>
+    </ul>
+  </nav>
+  <main>
+    <div class="container">
+      <div class="side-bar">
+        <div class="product-image-container">
+
+          <div class="image-carousel-container">
+            <div class="image-slides">
+              <a  onclick="scrollOver(0)">
+                <img src="../static/lap-image-1.jpg" alt="" width="40">
+              </a>
+              <a  onclick="scrollOver(1)">
+                <img src="../static/lap-image-2.jpg" alt="" width="40">
+              </a>
+              <a  onclick="scrollOver(2)">
+                <img src="../static/lap-image-3.jpg" alt="" width="40">
+              </a>
+              <a  onclick="scrollOver(3)">
+                <img src="../static/lap-image-4.jpg" alt="" width="40">
+              </a>
+            </div>
+            <div class="image-carousel" id="scroll">
+              <div class="image-carousel-wrapper">
+                <div class="product-image" id="image-1">
+                  <img src="../static/lap-image-1.jpg" alt="image of the product" />
+                </div>
+                <div class="product-image" id="image-2">
+                  <img src="../static/lap-image-2.jpg" alt="image of the product" />
+                </div>
+                <div class="product-image" id="image-3">
+                  <img src="../static/lap-image-3.jpg" alt="image of the product" />
+                </div>
+                <div class="product-image" id="image-4">
+                  <img src="../static/lap-image-4.jpg" alt="image of the product" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="action-buttons">
+            <button class="buy">
+              <img src="../static/buy.png" alt="Buy" width="25">
+              <span>BUY</span>
+            </button>
+            <span></span>
+            <button class="add-to-cart">
+              <img src="../static/cart.png" alt="Add to cart" width="25">
+              <span>ADD TO CART</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-details">
+        <h1 class="product-title">
+          ASUS ZenBook Pro Duo 15 OLED (2021), Intel Core i9-10980HK 10th Gen,
+          15.6" 4K Dual-Screen Touch Laptop (32GB/1TB SSD/8GB GeForce RTX
+          3070/Office 2019/Windows 10/Celestial Blue/2.34 Kg) UX582LR-H901TS
+        </h1>
+        <hr>
+        <div class="product-info">
+          <span class="product-price">
+            <h3>₹2,24,990 </h3>
+            <strike>₹2,79,999</strike>
+          </span>
+          <span class="product-rating">
+            <span>Rating :</span>
+            <img src="../static/4.5 star.png" alt="4.5 star rating" width="95" /> (2578 reviews)
+          </span>
+          <ul>
+            <li>
+              <img id="green-tick" src="../static/greentick.png" alt="price tag" width="20">
+              <span class="wrapper">
+                <b>Free delivery Available :</b> Saturday, July 24
+              </span>
+            </li>
+            <li>
+              <img src="../static/price tag.png" alt="price tag" width="25">
+              <span class="wrapper">
+                EMI Available
+              </span>
+            </li>
+            <li>
+              <img src="../static/price tag.png" alt="price tag" width="25">
+              <span class="wrapper">
+                10% Cashback with Axis Bank credit cards
+              </span>
+            </li>
+            <li>
+              <img src="../static/price tag.png" alt="price tag" width="25">
+              <span class="wrapper">
+                Bank Offer 20% off on 1st txn with Amex Network Cards issued by ICICI Bank, IndusInd Bank and SBI Cards
+              </span>
+            </li>
+            <li>
+              <img src="../static/price tag.png" alt="price tag" width="25">
+              <span class="wrapper">
+                Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition
+                apply
+              </span>
+            </li>
+            <li>
+              <img src="../static/price tag.png" alt="price tag" width="25">
+              <span class="wrapper">
+                Get Google Nest mini at just Rs.1999 on purchase of Phones, TVs, Laptops, TV streaming Devices & ACs
+              </span>
+            </li>
+          </ul>
+
+        </div>
+        <hr>
+        <div class="product-description">
+          <div class="desc-title">Product Description:</div>
+          <div class="sub-desc">
+            <div class="desc-subtitle">General:</div>
+            <table class="product-specifications">
+              <tr>
+                <th>Sales Package</th>
+                <td>
+                  Laptop, Power Adaptor, User Guide, Warranty Documents
+                </td>
+              </tr>
+              <tr>
+                <th>Mohel Number</th>
+                <td>G513QM-HN319TS</td>
+              </tr>
+              <tr>
+                <th>Part Number</th>
+                <td>90NR0572-M07330</td>
+              </tr>
+              <tr>
+                <th>Series</th>
+                <td>ROG Strix G15</td>
+              </tr>
+              <tr>
+                <th>Color</th>
+                <td>Eclipse Gray</td>
+              </tr>
+              <tr>
+                <th>Type</th>
+                <td>Gaming Laptop</td>
+              </tr>
+              <tr>
+                <th>Suitable For</th>
+                <td>Processing & Multitasking</td>
+              </tr>
+              <tr>
+                <th>Power Supply</th>
+                <td>240W AC Adapter</td>
+              </tr>
+              <tr>
+                <th>Battery Cell</th>
+                <td>4 cell</td>
+              </tr>
+              <tr>
+                <th>MS Office Provided</th>
+                <td>Yes</td>
+              </tr>
+            </table>
+          </div>
+          <div class="sub-desc">
+            <div class="desc-subtitle">Processor And Memory Features:</div>
+            <table class="product-specifications">
+              <tr>
+                <th>Dedicated Graphic Memory Type</th>
+                <td>
+                  GDDR6
+                </td>
+              </tr>
+              <tr>
+                <th>Dedicated Graphic Memory Capacity</th>
+                <td>
+                  6 GB
+                </td>
+              </tr>
+              <tr>
+                <th>Processor Brand</th>
+                <td>AMD</td>
+              </tr>
+              <tr>
+                <th>Processor Name</th>
+                <td>Ryzenta Core</li>
+                </td>
+              </tr>
+              <tr>
+                <th>SSD</th>
+                <td>Yes </td>
+              </tr>
+              <tr>
+                <th>SSD Capacity</th>
+                <td>1 TB</td>
+              </tr>
+              <tr>
+                <th>RAM</th>
+                <td>16 GB</td>
+              </tr>
+              <tr>
+                <th>RAM Type</th>
+                <td>DDR4</td>
+              </tr>
+              <tr>
+                <th>Processor Variant</th>
+                <td>5800H</td>
+              </tr>
+              <tr>
+                <th>Chipset</th>
+                <td>N/A</td>
+              </tr>
+              <tr>
+                <th>Clock Speed</th>
+                <td>
+                  3.2 GHz Max Turbo boost up to 4.4 GHz
+                </td>
+              </tr>
+              <tr>
+                <th>Memory Slots</th>
+                <td>
+                  2 Slots
+                </td>
+              </tr>
+              <tr>
+                <th>RAM Frequency</th>
+                <td>3200</td>
+              </tr>
+              <tr>
+                <th>Cache</th>
+                <td>16 MB</td>
+              </tr>
+              <tr>
+                <th>Graphic Processor</th>
+                <td>NVIDIA Geforce RTX 3060</td>
+              </tr>
+              <tr>
+                <th>Number of Cores</th>
+                <td>8</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <hr>
+        <div class="review-section ">
+          <h1 class="review-section-title">Reviews and Ratings</h1>
+          <div class="rating">
+            <span class="rating-number">4.5</span>
+            <div>(2500 reviews and rating)</div>
+          </div>
+          <div class="rating-bars">
+            <div class="bar-container">
+              <div class="bar">
+                <div id="fill-1"></div>
+              </div>
+              <span>1564</span>
+            </div>
+            <div class="bar-container">
+              <div class="bar">
+                <div id="fill-2"></div>
+              </div>
+              <span>456</span>
+            </div>
+            <div class="bar-container">
+              <div class="bar">
+                <div id="fill-3"></div>
+              </div>
+              <span>345</span>
+            </div>
+            <div class="bar-container">
+              <div class="bar">
+                <div id="fill-4"></div>
+              </div>
+              <span>167</span>
+            </div>
+            <div class="bar-container">
+              <div class="bar">
+                <div id="fill-5"></div>
+              </div>
+              <span>74</span>
+            </div>
+          </div>
+          <br>
+          <br>
+          <div class="product-review">
+            <div class="review-header">
+              <div>
+                <span class="review-rating">
+                  <img src="../static/star.svg" alt="">
+                  <span class="review-rating-number">4.5</span>
+                </span>
+                <span class="review-title">Fabulous</span>
+              </div>
+            </div>
+            <div class="horizontal-line"></div>
+            <div class="review-body">
+              It was delivered in 2 days to me. I've tested some older Games like witcher 3 and it ran at ultra settings
+              with
+              super smooth 60fps+ performance. The only new game I've tried is Control from epic games store and ay high
+              settings with Ray tracing on high + DLSS I have again seen smooth performance with CPU temp. 80 deg and
+              GPU
+              temp
+              at around 72 deg.
+              <br>
+              <br>
+              The battery is very good and I am able to perform regular office work + browsing for about 10 hours
+              without
+              charging.
+              <br>
+              <br>
+              The display is more than good enough for me and is decently bright. The sound though is very very good and
+              loud
+              enough for me.
+              <br>
+              <br>
+              Overall this is an absolute beast and I would definitely recommend it. PS: The asus armoury has aura
+              creator
+              and
+              you can create some really nice colour effects with it.
+            </div>
+            <div class="review-footer">
+              <div class="customer-pic">
+                <img src="../static/dp.png" width="53" alt="reviewer profile pic">
+              </div>
+              <div class="customer-profile">
+                <div class="customer-id">
+                  User_Name1320
+                </div>
+                <div class="customer-verified">
+                  <!-- <span class="verified-tick"><img src="../static/verified tick.png" width="40" alt=""></span> -->
+                  <span class="verified-tick">&#10003;</span>
+                  <span class="verified-purchase-text">verified purchase</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="product-review">
+            <div class="review-header">
+              <div>
+                <span class="review-rating">
+                  <img src="../static/star.svg" alt="">
+                  <span class="review-rating-number">4.5</span>
+                </span>
+                <span class="review-title">Fabulous</span>
+              </div>
+            </div>
+            <div class="horizontal-line"></div>
+            <div class="review-body">
+              It was delivered in 2 days to me. I've tested some older Games like witcher 3 and it ran at ultra settings
+              with
+              super smooth 60fps+ performance. The only new game I've tried is Control from epic games store and ay high
+              settings with Ray tracing on high + DLSS I have again seen smooth performance with CPU temp. 80 deg and
+              GPU
+              temp
+              at around 72 deg.
+              <br>
+              <br>
+              The battery is very good and I am able to perform regular office work + browsing for about 10 hours
+              without
+              charging.
+              <br>
+              <br>
+              The display is more than good enough for me and is decently bright. The sound though is very very good and
+              loud
+              enough for me.
+              <br>
+              <br>
+              Overall this is an absolute beast and I would definitely recommend it. PS: The asus armoury has aura
+              creator
+              and
+              you can create some really nice colour effects with it.
+            </div>
+            <div class="review-footer">
+              <div class="customer-pic">
+                <img src="../static/dp.png" width="53" alt="reviewer profile pic">
+              </div>
+              <div class="customer-profile">
+                <div class="customer-id">
+                  User_Name1320
+                </div>
+                <div class="customer-verified">
+                  <!-- <span class="verified-tick"><img src="../static/verified tick.png" width="40" alt=""></span> -->
+                  <span class="verified-tick">&#10003;</span>
+                  <span class="verified-purchase-text">verified purchase</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="product-review">
+            <div class="review-header">
+              <div>
+                <span class="review-rating">
+                  <img src="../static/star.svg" alt="">
+                  <span class="review-rating-number">4.5</span>
+                </span>
+                <span class="review-title">Fabulous</span>
+              </div>
+            </div>
+            <div class="horizontal-line"></div>
+            <div class="review-body">
+              It was delivered in 2 days to me. I've tested some older Games like witcher 3 and it ran at ultra settings
+              with
+              super smooth 60fps+ performance. The only new game I've tried is Control from epic games store and ay high
+              settings with Ray tracing on high + DLSS I have again seen smooth performance with CPU temp. 80 deg and
+              GPU
+              temp
+              at around 72 deg.
+              <br>
+              <br>
+              The battery is very good and I am able to perform regular office work + browsing for about 10 hours
+              without
+              charging.
+              <br>
+              <br>
+              The display is more than good enough for me and is decently bright. The sound though is very very good and
+              loud
+              enough for me.
+              <br>
+              <br>
+              Overall this is an absolute beast and I would definitely recommend it. PS: The asus armoury has aura
+              creator
+              and
+              you can create some really nice colour effects with it.
+            </div>
+            <div class="review-footer">
+              <div class="customer-pic">
+                <img src="../static/dp.png" width="53" alt="reviewer profile pic">
+              </div>
+              <div class="customer-profile">
+                <div class="customer-id">
+                  User_Name1320
+                </div>
+                <div class="customer-verified">
+                  <!-- <span class="verified-tick"><img src="../static/verified tick.png" width="40" alt=""></span> -->
+                  <span class="verified-tick">&#10003;</span>
+                  <span class="verified-purchase-text">verified purchase</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="product-review">
+            <div class="review-header">
+              <div>
+                <span class="review-rating">
+                  <img src="../static/star.svg" alt="">
+                  <span class="review-rating-number">4.5</span>
+                </span>
+                <span class="review-title">Fabulous</span>
+              </div>
+            </div>
+            <div class="horizontal-line"></div>
+            <div class="review-body">
+              It was delivered in 2 days to me. I've tested some older Games like witcher 3 and it ran at ultra settings
+              with
+              super smooth 60fps+ performance. The only new game I've tried is Control from epic games store and ay high
+              settings with Ray tracing on high + DLSS I have again seen smooth performance with CPU temp. 80 deg and
+              GPU
+              temp
+              at around 72 deg.
+              <br>
+              <br>
+              The battery is very good and I am able to perform regular office work + browsing for about 10 hours
+              without
+              charging.
+              <br>
+              <br>
+              The display is more than good enough for me and is decently bright. The sound though is very very good and
+              loud
+              enough for me.
+              <br>
+              <br>
+              Overall this is an absolute beast and I would definitely recommend it. PS: The asus armoury has aura
+              creator
+              and
+              you can create some really nice colour effects with it.
+            </div>
+            <div class="review-footer">
+              <div class="customer-pic">
+                <img src="../static/dp.png" width="53" alt="reviewer profile pic">
+              </div>
+              <div class="customer-profile">
+                <div class="customer-id">
+                  User_Name1320
+                </div>
+                <div class="customer-verified">
+                  <!-- <span class="verified-tick"><img src="../static/verified tick.png" width="40" alt=""></span> -->
+                  <span class="verified-tick">&#10003;</span>
+                  <span class="verified-purchase-text">verified purchase</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    </div>
+    <hr>
+    <div class="suggested-products-section">
+      <h1 class="suggested-products-title">Similar Products:</h1>
+      <div class="suggested-products">
+        <div class="suggested-products-wrapper">
+          <div class="suggested-products-item">
+            <img width="230"
+              src="https://rukminim1.flixcart.com/image/312/312/ko382a80/computer/b/v/u/na-gaming-laptop-asus-original-imag2mrvrxgsaahh.jpeg?q=70"
+              alt="">
+            <a href="#" class="suggested-products-desc">ASUS ROG Strix G15 Ryzen 7 Octa Core 5800H - (16 GB/1 TB
+              SSD/Windows 10 Home/6 GB Graphics/NVIDIA GeForce
+              RTX 3060)......</a>
+          </div>
+          <div class="suggested-products-item">
+            <img
+              src="https://rukminim1.flixcart.com/image/312/312/kcauaa80/mobile/2/p/u/poco-m2-pro-mzb9621in-original-imaftg9fkdpgbgxq.jpeg?q=70"
+              alt="">
+            <a href="#" class="suggested-products-desc">ASUS ROG Strix G15 Ryzen 7 Octa Core 5800H - (16 GB/1 TB
+              SSD/Windows 10 Home/6 GB Graphics/NVIDIA GeForce
+              RTX 3060)......</a>
+          </div>
+          <div class="suggested-products-item">
+            <img width="205"
+              src="https://rukminim1.flixcart.com/image/312/312/kk2wl8w0/computer/f/k/b/na-gaming-laptop-lenovo-original-imafzgdkvx9guy8q.jpeg?q=70"
+              alt="">
+            <a href="#" class="suggested-products-desc">ASUS ROG Strix G15 Ryzen 7 Octa Core 5800H - (16 GB/1 TB
+              SSD/Windows 10 Home/6 GB Graphics/NVIDIA GeForce
+              RTX 3060)......</a>
+          </div>
+          <div class="suggested-products-item">
+            <img
+              src="https://rukminim1.flixcart.com/image/312/312/kcm9t3k0/mobile/t/k/m/vivo-x50-vivo-2004-original-imaftppacmcg2m5q.jpeg?q=70"
+              alt="">
+            <a href="#" class="suggested-products-desc">ASUS ROG Strix G15 Ryzen 7 Octa Core 5800H - (16 GB/1 TB
+              SSD/Windows 10 Home/6 GB Graphics/NVIDIA GeForce
+              RTX 3060)......</a>
+          </div>
+          <div class="suggested-products-item">
+            <img
+              src="https://rukminim1.flixcart.com/image/200/200/kcm9t3k0/mobile/p/p/q/vivo-x50-pro-vivo-2006-original-imaftppahwbc6myx.jpeg?q=90"
+              alt="">
+            <a href="#" class="suggested-products-desc">ASUS ROG Strix G15 Ryzen 7 Octa Core 5800H - (16 GB/1 TB
+              SSD/Windows 10 Home/6 GB Graphics/NVIDIA GeForce
+              RTX 3060)......</a>
+          </div>
+          <div class="suggested-products-item">
+            <img width="230"
+              src="https://rukminim1.flixcart.com/image/312/312/ko382a80/computer/b/v/u/na-gaming-laptop-asus-original-imag2mrvrxgsaahh.jpeg?q=70"
+              alt="">
+            <a href="#" class="suggested-products-desc">ASUS ROG Strix G15 Ryzen 7 Octa Core 5800H - (16 GB/1 TB
+              SSD/Windows 10 Home/6 GB Graphics/NVIDIA GeForce
+              RTX 3060)......</a>
+          </div>
+          <div class="suggested-products-item">
+            <img
+              src="https://rukminim1.flixcart.com/image/312/312/kcauaa80/mobile/2/p/u/poco-m2-pro-mzb9621in-original-imaftg9fkdpgbgxq.jpeg?q=70"
+              alt="">
+            <a href="#" class="suggested-products-desc">ASUS ROG Strix G15 Ryzen 7 Octa Core 5800H - (16 GB/1 TB
+              SSD/Windows 10 Home/6 GB Graphics/NVIDIA GeForce
+              RTX 3060)......</a>
+          </div>
+          <div class="suggested-products-item">
+            <img width="205"
+              src="https://rukminim1.flixcart.com/image/312/312/kk2wl8w0/computer/f/k/b/na-gaming-laptop-lenovo-original-imafzgdkvx9guy8q.jpeg?q=70"
+              alt="">
+            <a href="#" class="suggested-products-desc">ASUS ROG Strix G15 Ryzen 7 Octa Core 5800H - (16 GB/1 TB
+              SSD/Windows 10 Home/6 GB Graphics/NVIDIA GeForce
+              RTX 3060)......</a>
+          </div>
+          <div class="suggested-products-item">
+            <img
+              src="https://rukminim1.flixcart.com/image/312/312/kcm9t3k0/mobile/t/k/m/vivo-x50-vivo-2004-original-imaftppacmcg2m5q.jpeg?q=70"
+              alt="">
+            <a href="#" class="suggested-products-desc">ASUS ROG Strix G15 Ryzen 7 Octa Core 5800H - (16 GB/1 TB
+              SSD/Windows 10 Home/6 GB Graphics/NVIDIA GeForce
+              RTX 3060)......</a>
+          </div>
+          <div class="suggested-products-item">
+            <img
+              src="https://rukminim1.flixcart.com/image/200/200/kcm9t3k0/mobile/p/p/q/vivo-x50-pro-vivo-2006-original-imaftppahwbc6myx.jpeg?q=90"
+              alt="">
+            <a href="#" class="suggested-products-desc">ASUS ROG Strix G15 Ryzen 7 Octa Core 5800H - (16 GB/1 TB
+              SSD/Windows 10 Home/6 GB Graphics/NVIDIA GeForce
+              RTX 3060)......</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+</body>
+
+</html>
