@@ -13,7 +13,5 @@ function scrollOver(scrollMultiplier) {
 
   var currentPosition = document.getElementById("scroll").scrollLeft;
   var scrollByLength = scrollLength * scrollMultiplier - currentPosition;
-  console.log(scrollLength);
   document.getElementById("scroll").scrollBy(scrollByLength, 0);
-  console.log(document.getElementById("scroll").scrollLeft);
 }
