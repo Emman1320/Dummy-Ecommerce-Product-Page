@@ -10,6 +10,10 @@
   font-family: "Nunito";
   src: url("../fonts/Nunito/Nunito-Light.ttf");
 }
+@font-face {
+  font-family: "Oswald";
+  src: url("../fonts/Oswald/Oswald-VariableFont_wght.ttf");
+}
 
 * {
   box-sizing: border-box;
@@ -498,7 +502,7 @@ nav {
   float: left;
 }
 .rating-number {
-  font-family: "Righteous", cursive;
+  font-family: "Oswald", sans-serif;
   font-size: 4em;
 }
 
