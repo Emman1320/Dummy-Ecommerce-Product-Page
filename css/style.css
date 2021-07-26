@@ -659,7 +659,8 @@ nav {
 }
 @media (max-width: 1369px) {
   * {
-    zoom: 0.97;
+    zoom: 0.973;
+    font-size: 1.02em;
   }
   .product-image img {
     width: 536.81px;
