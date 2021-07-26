@@ -1,18 +1,14 @@
 @font-face {
   font-family: "Barlow Condensed";
-  src: url("../Barlow_Condensed,Nunito,Oswald,Titillium_Web/Barlow_Condensed/BarlowCondensed-Light.ttf");
+  src: url("../fonts/Barlow_Condensed/BarlowCondensed-Light.ttf");
 }
 @font-face {
   font-family: "Righteous";
-  src: url("../Barlow_Condensed,Nunito,Oswald,Titillium_Web/Righteous/Righteous-Regular.ttf");
+  src: url("../fonts/Righteous/Righteous-Regular.ttf");
 }
 @font-face {
   font-family: "Nunito";
-  src: url("../Barlow_Condensed,Nunito,Oswald,Titillium_Web/Nunito/Nunito-Light.ttf");
-}
-@font-face {
-  font-family: "Titillium Web";
-  src: url("../Barlow_Condensed,Nunito,Oswald,Titillium_Web/Titillium_Web/TitilliumWeb-ExtraLight.ttf");
+  src: url("../fonts/Nunito/Nunito-Light.ttf");
 }
 
 * {
@@ -374,7 +370,6 @@ nav {
 
 .product-title {
   font-size: 1.8em;
-  font-family: "Titillium Web", sans-serif;
 }
 
 /* product information  */
