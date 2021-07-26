@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=Nunito:wght@300&family=Oswald&family=Titillium+Web:wght@200&display=swap");
 @font-face {
   font-family: "Barlow Condensed";
   src: url("../Barlow_Condensed,Nunito,Oswald,Titillium_Web/Barlow_Condensed/BarlowCondensed-Light.ttf");
@@ -7,6 +6,15 @@
   font-family: "Righteous";
   src: url("../Barlow_Condensed,Nunito,Oswald,Titillium_Web/Righteous/Righteous-Regular.ttf");
 }
+@font-face {
+  font-family: "Nunito";
+  src: url("../Barlow_Condensed,Nunito,Oswald,Titillium_Web/Nunito/Nunito-Light.ttf");
+}
+@font-face {
+  font-family: "Titillium_Web";
+  src: url("../Barlow_Condensed,Nunito,Oswald,Titillium_Web/Titillium_Web/TitilliumWeb-Light.ttf");
+}
+
 * {
   box-sizing: border-box;
   object-fit: cover;
